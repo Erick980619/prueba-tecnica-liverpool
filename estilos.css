@@ -64,7 +64,7 @@ span {
 
 .titulo__seccion {
   border-bottom: 2px solid #26099b;
-  margin: 0 30px;
+  margin: 0 30px 30px 30px;
 }
 
 .titulo__seccion p {
@@ -74,6 +74,10 @@ span {
   border-radius: 2px;
   margin: 0px;
   color: #fff;
+}
+
+.seccion_producto {
+  margin-top: 50px;
 }
 
 footer {
