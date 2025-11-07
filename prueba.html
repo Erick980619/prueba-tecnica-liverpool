@@ -30,7 +30,7 @@
         </div>
       </header>
       <section class="cancelacion">
-        <i class="bi bi-check-circle-fill me-3 icono"></i>
+        <i class="bi bi-check-circle-fill me-3 icono color__icono"></i>
         <h2>Cancelacion exitosa</h2>
       </section>
 
@@ -43,22 +43,44 @@
         <div class="titulo__seccion">
           <p>Cancelación</p>
         </div>
-        <div>
+        <div class="datos__tienda">
           <p>Fecha de cancelación: <span>30 de mayo 2025</span></p>
           <p>Tienda: <span>Perisur</span></p>
         </div>
-        <div>
-          <p>No. de terminal: <span>0639</span></p>
-          <p>Docto: <span>1637</span></p>
-          <p>Tienda: <span>0039</span></p>
-          <p>No. de vendedor: <span>726539992</span></p>
-          <p>Asesor: <span>Pedro Martinez</span></p>
+        <div class="datos__vendedor agregar_bordes">
+          <div>
+            <p>No. de terminal: <span>0639</span></p>
+          </div>
+          <div>
+            <p>Docto: <span>1637</span></p>
+          </div>
+          <div>
+            <p>Tienda: <span>0039</span></p>
+          </div>
+          <div>
+            <p>No. de vendedor: <span>726539992</span></p>
+          </div>
+          <div>
+            <p>Asesor: <span>Pedro Martinez</span></p>
+          </div>
         </div>
 
-        <div>
-          <!-- icono -->
-          <p class="">Cancelación sujeta a terminos y condiciones</p>
-          <!-- icono -->
+        <div class="mensaje__advertencia">
+          <i
+            class="bi bi-exclamation-triangle-fill icono icono__advertencia"
+          ></i>
+
+          <div>
+            <p>
+              Cancelación sujeta a terminos y condiciones del emisor de la
+              tarjeta.
+            </p>
+            <p>
+              Los tiempos pueden variar de acuerdo a cada institución bancaria.
+            </p>
+          </div>
+
+          <i class="bi bi-x-lg icono icono__advertencia"></i>
         </div>
       </section>
 
@@ -66,9 +88,131 @@
         <div class="titulo__seccion">
           <p>Productos</p>
         </div>
+        <div class="datos__tienda">
+          <p>Estatus: <span class="cancelado__color">Cancelado</span></p>
+        </div>
+
+        <div class="agregar_bordes">
+          <p>Terminal: <span>0003</span></p>
+          <p>No. de transacción cancelada: <span>6127</span></p>
+        </div>
+
+        <div class="datos__tienda">
+          <div class="img__producto">
+            <img
+              src="cuaderno raya.jpeg"
+              class="img-fluid rounded-top"
+              alt="imagen ilustrativa"
+            />
+            <div>
+              <h2>Cuaderno princesas hoja rayada</h2>
+              <p>Codigo de producto:<span>11131922433</span></p>
+              <div class="producto__info">
+                <div>
+                  <p>Precio:<span>$899.00</span></p>
+                </div>
+                <div>
+                  <p>Promocion:<span>3 MESES SIN INTERESES</span></p>
+                </div>
+                <div>
+                  <p>Cantidad:<span>1</span></p>
+                </div>
+              </div>
+              <div>
+                <p>Total:<span class="cancelado__color">$899.00</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cancelacion_datos">
+          <h2 class="datos__tienda">Resumen de cancelación</h2>
+          <div class="agregar_bordes">
+            <p class="linea">Subtotal: <span>$1,149.00</span></p>
+            <p class="linea">Descuento: <span>$300.00</span></p>
+          </div>
+          <div class="datos__total">
+            <p class="linea">
+              Total: <span class="cancelado__color">$899.00</span>
+            </p>
+            <p class="cancelado__color costo__derecha">
+              Ochocientos noventa y nueve pesos MXM
+            </p>
+          </div>
+        </div>
+
+        <div class="cancelacion_datos">
+          <h2 class="datos__tienda">Forma de rembolso por cancelación</h2>
+          <div class="border__top">
+            <p class="linea">
+              Pago con tarjeta Visa: <span>XXXX XXXX XXXX 1234</span>
+            </p>
+            <p class="linea">
+              Tarjetahabiente: <span>Natalia Dominguez Cervantes</span>
+            </p>
+            <p class="linea">Banco: <span>BBVA</span></p>
+            <p class="linea">Autorización: <span>***454567***</span></p>
+            <p class="linea">Monto a devolver: <span>$899.00</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="iconos__liverpool">
+          <div class="card__icono">
+            <i class="bi bi-truck"></i>
+            <p class="titulo__card">Envio gratis</p>
+            <p class="texto__card">No se entiende el texto en la imagen</p>
+          </div>
+          <div class="card__icono">
+            <i class="bi bi-credit-card-fill"></i>
+            <p class="titulo__card">Trjetas Liverpool</p>
+            <p class="texto__card">No se entiende el texto en la imagen</p>
+          </div>
+          <div class="card__icono">
+            <i class="bi bi-hand-index-thumb-fill"></i>
+            <p class="titulo__card">Click&Collect</p>
+            <p class="texto__card">No se entiende el texto en la imagen</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="card__icono">
+        <p class="titulo__card">Ventas y centro de contacto</p>
+        <p class="titulo__card">(55) 5555 3333 o desde tu celular *7171</p>
+      </div>
+
+      <div class="iconos__liverpool aviso__contenido margin__contenido">
+        <p class="text__plano">Aviso de privacidad</p>
+        <p class="text__plano separador">Terminos y condiciones</p>
+      </div>
+
+      <section class="datos text__plano datos__total text-center">
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis
+            quo numquam dolores magni expedita nam iure, inventore minima
+            mollitia sint corrupti. Adipisci aliquam iste repellat quod? Cumque,
+            adipisci suscipit!
+          </p>
+        </div>
+      </section>
+
+      <section class="mb-4">
+        <p class="text-center text__plano">Siguenos en:</p>
+        <div class="iconos__liverpool gap20">
+          <div class="card__icono__social">
+            <i class="bi bi-facebook"></i>
+          </div>
+          <div class="card__icono__social">
+            <i class="bi bi-instagram"></i>
+          </div>
+          <div class="card__icono__social">
+            <i class="bi bi-youtube"></i>
+          </div>
+        </div>
       </section>
     </div>
-
     <footer>
       <p>Disney store en Liverpool 2025</p>
     </footer>
